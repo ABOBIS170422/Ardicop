@@ -1,0 +1,92 @@
+#a001 {
+    background-color: rgb(153, 27, 30);
+    padding: 0px;
+    margin: -9px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#a002 {
+    width: 100px;
+    padding: 0px;
+    margin-right: -9px;
+}
+
+#a003 {
+    align-items: left;
+    background-color: rgb(231, 231, 231);
+    margin: -7.7px;
+    padding: 0px;
+    width: 220px;
+    height: 80vh;
+    z-index: -1;
+}
+
+#a004 {
+    text-align: center;
+
+
+}
+
+.ardicop1 {
+    background-image: url(../img/proyecto-ardicop3.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1900px 1100px;
+    z-index: -2;
+    height: 100vh;
+}
+
+.ardicop1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: 1;
+    height: 100vh;
+    width: 1865px;
+}
+
+#a005 {
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+#a006 {
+    color: aliceblue;
+
+}
+
+#a006:hover {
+    color: darkgrey;
+}
+
+#a007 {
+    background-color: darkgrey;
+    padding: 15px;
+}
+
+#a008 {
+    background-color: rgb(231, 231, 231);
+    padding: 15px;
+}
+
+#a008:hover {
+    color: dimgrey;
+}
+
+#a009 {
+    font-size: 60px;
+}
+
+#a010 {
+    font-size: 30px;
+}
